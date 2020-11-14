@@ -17,7 +17,7 @@
 #### Q3. GCP Organizations are not available in your GCP project. What type of account are you using?
 
 - [ ] Temporary
-- [*] Free Tier- free trail doesnt have the organization
+- [x] Free Tier
 - [ ] Local
 - [ ] Organizational
 
@@ -110,3 +110,45 @@
 - [ ] Compute Engine base images
 - [x] GCP Marketplace
 - [ ] Google Kubernetes Engine base images
+
+#### Q16. You need to cache HTTP and HTTPs static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
+- [x] Cloud CDN
+- [ ] Cloud DNS
+- [ ] Cloud Load balancing
+- [ ] Could NAT
+
+#### Q17. Cloud SQL supports which two relational databases?
+- [ ] MySQL and Oracle
+- [ ] Redis and Oracle
+- [ ] Redis and PostgresSQL
+- [x] MySQL and PostgresSQL
+
+#### Q18. Which object is a container for GCP services instances?
+- [ ] project
+- [x] group
+- [ ] folder
+- [ ] organisation
+
+#### Q19. You need to create instances with identical configurations that cannot be changed. Which Compute Engine feature do you use? 
+- [ ] instance groups
+- [ ] snapshots
+- [x] instance templates
+- [ ] instances
+
+#### Q20. You need to set a Wordpress site with high availability on GCP using the fewest steps. What do you do?
+- [ ] Create, configure and launch a Wordpress HA deployment template on Compute Engine
+- [ ] Configure and launch a Wordpress HA deployment template from the Wordpress Marketplace
+- [ ] Create, configure and launch a Wordpress HA deployment template on Google Kubernetes Engine
+- [x] Configure and launch a Wordpress HA deployment template from the GCP Marketplace
+
+#### Q21. Which object is used to hold payment information for a GCP project?
+- [ ] payment account
+- [x] billing account
+- [ ] folder
+- [ ] organisation
+
+#### Q22. You are designing security for IOT device application. What best practices should you include in your design?
+- [ ] Use a public private key pair for each device. Keep the private key secret.
+- [x] Use a  private key for each device. Keep the private key secret.
+- [ ] Use a public private key pair for each device. Keep the public key secret.
+- [ ] Use a public key for each device. Keep the public key secret.
